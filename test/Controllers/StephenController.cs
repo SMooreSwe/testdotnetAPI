@@ -12,7 +12,7 @@ public class StephenController : ControllerBase
 
     }
 
-    [HttpGet(Name = "Test")]
+    [HttpGet("Test")]
     public string Get()
     {
         return "Hi, I am Stephen";
